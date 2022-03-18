@@ -1,6 +1,6 @@
 #include <stdio.h>
-
-long factorial(int n)
+#include <stdarg.h>
+long factorial(int n)		//½×³Ë
 {
 	if (n <= 0)
 		return 1;
